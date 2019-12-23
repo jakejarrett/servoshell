@@ -8,8 +8,8 @@ build = "build.rs"
 [dependencies]
 open = "1.1.1"
 log = "0.3"
-libservo = { git = "https://github.com/servo/servo", rev = "989d2fd532" }
-glutin = "0.9"
+libservo = { git = "https://github.com/servo/servo", rev = "bb5cd02da30fe8ef4dcdea5cca17667cd4ac6cdb", features = ["canvas2d-azure", "layout-2020"] }
+glutin = "0.21.0"
 tinyfiledialogs = "3.0"
 treediff = { version = "2.5.3", features = ["with-serde-json"] }
 serde = "1.0"
